@@ -8,10 +8,14 @@
     "type": "git",
     "url": "https://github.com/seishun/node-steam.git"
   },
+  "scripts": {
+    "prepublish": "node prepublish.js"
+  },
   "dependencies": {
     "adm-zip": "*",
     "crc": "*",
-    "protobuf": "*",
+    "long": "*",
+    "protobufjs": "*",
     "ref": "*",
     "ursa": "*"
   },
